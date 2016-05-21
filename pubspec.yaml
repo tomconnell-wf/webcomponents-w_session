@@ -1,0 +1,9 @@
+name: webcomponents_wsession
+version: 1.0.0
+dependencies:
+  browser: any
+  w_session:
+    hosted:
+      name: w_session
+      url: https://pub.workiva.org
+    version: 4.5.4
