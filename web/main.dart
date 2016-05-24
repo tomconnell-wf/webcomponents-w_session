@@ -6,7 +6,7 @@ import 'package:w_session/w_session.dart';
 
 main() async {
   print('before session-start');
-  Session session = new Session(sessionHost: Uri.parse('https://wk-dev.wdesk.org'));
+  Session session = new Session(sessionHost: Uri.parse('http://localhost:8001'));
   await session.start();
   print('after session-start');
 }
